@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Dummy Technologies</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/dummy_logo.png" alt="Dummy Technologies Logo" style="height: 50px;">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="home-section">
+        <div class="home-left">
+            <h1>Dummy Technologies</h1>
+            <p>We are a leading company in our industry, committed to providing top-notch services and innovative solutions to our clients. Our team of experts works tirelessly to ensure customer satisfaction and drive success.</p>
+        </div>
+        <div class="home-right">
+            <img src="images/dummy_logo_big.png" alt="Company Logo">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="profiles">
+            <div class="profile">
+                <img src="https://picsum.photos/300?random=1" alt="Person 1">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="profile">
+                <img src="https://picsum.photos/300?random=2" alt="Person 2">
+                <h3>Jane Smith</h3>
+                <p>CTO</p>
+            </div>
+            <div class="profile">
+                <img src="https://picsum.photos/300?random=3" alt="Person 3">
+                <h3>Emily Johnson</h3>
+                <p>CFO</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <h3>PonPon</h3>
+            <p>PonPon is a web-based secure and reliable password manager built on Laravel.</p>
+            <button class="project-button" onclick="window.open('https://github.com/DummyC/ponpon')">View Project on <img class="icon" src="images/github-mark-white.png" alt=""></button>
+        </div>
+        <div class="project">
+            <h3>PPMS</h3>
+            <p>PPMS is a web-based system for managing procurement for projects, intended to assist the procurement flow of proposed projects in the campus but can also be applied to other organizations.</p>
+            <button class="project-button" onclick="window.open('https://github.com/DummyC/PPMS-Flask')">View Project on <img class="icon" src="images/github-mark-white.png" alt=""></button>
+        </div>
+        <div class="project">
+            <h3>Outbreak Escape</h3>
+            <p>Outbreak Escape is a top-down zombie shooter with endless wave system. Try and survive for as long as you can but in the end, you will be devoured by the horde.</p>
+            <button class="project-button" onclick="window.open('https://github.com/DummyC/OutbreakEscape')">View Project on <img class="icon" src="images/github-mark-white.png" alt=""></button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="card">
+            <h3>Send us a message!</h3>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button class="project-button" type="submit">Submit</button>
+            </form>
+            <div id="confirmation-message" style="display:none;">Thank you for your message!</div>
+        </div>
+    </section>
+    <footer>
+        <p>© Dummy Technologies 2025</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
