@@ -111,6 +111,11 @@ section h1 {
     font-size: xxx-large; 
 }
 
+.center {
+    text-align: center;
+    font-size: large;
+}
+
 .profiles {
     display: flex;
     justify-content: space-around;
